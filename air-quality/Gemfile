@@ -1,0 +1,9 @@
+# A sample Gemfile
+ruby '2.1.7'
+
+source "https://rubygems.org"
+
+gem "sinatra"
+gem "redis", "~> 3.0.1"
+gem "hiredis", "~> 0.4.5"  
+gem "em-synchrony"

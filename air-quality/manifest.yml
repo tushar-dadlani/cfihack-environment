@@ -1,0 +1,7 @@
+---
+applications:
+  - name: air-level 
+    memory: 512M 
+    instances: 1
+    path: .
+    command: ruby web.rb
